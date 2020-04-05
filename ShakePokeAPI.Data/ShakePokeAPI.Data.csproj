@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShakePokeAPI.Clients\ShakePokeAPI.Clients.csproj" />
+    <ProjectReference Include="..\ShakePokeAPI.Core\ShakePokeAPI.Core.csproj" />
+  </ItemGroup>
+
+</Project>
