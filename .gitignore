@@ -3,3 +3,12 @@
 ################################################################################
 
 /.vs
+/ShakePokeAPI/bin/Debug/netcoreapp2.1
+/ShakePokeAPI/obj
+/ShakePokeAPI.Clients
+/ShakePokeAPI.Clients.Tests
+/ShakePokeAPI.Core
+/ShakePokeAPI.Data
+/ShakePokeAPI.Data.Tests
+/ShakePokeAPI.External
+/ShakePokeAPI.Tests
