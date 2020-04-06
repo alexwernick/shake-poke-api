@@ -39,4 +39,11 @@ You can get there following the resource address provided in the “species” f
 * The solution has been written in C# using the .Net Core 2.1 framework
 * To run, navigate to the directory ~\shake-poke-api\ShakePokeAPI\ on command line
 * Enter 'dotnet run'
-* The program will now be available on http://localhost:5000/pokemon/charizard
+* The program will now be running on http://localhost:5000/pokemon/{pokemonname}
+
+## Running in docker container
+
+* Navigate to directory ~\shake-poke-api\ on command line. This is the folder containing the Dockerfile
+* Enter 'docker build -t aspnetapp .'
+* Enter 'docker run -d -p 8080:80 --name myapp aspnetapp'
+* The application will now be running on http://localhost:8080/pokemon/{pokemonname}
